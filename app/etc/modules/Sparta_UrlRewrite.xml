@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sparta_UrlRewrite>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Core />
+                <Mage_Catalog/>
+                <Enterprise_Index />
+                <Enterprise_Mview />
+                <Enterprise_UrlRewrite />
+            </depends>
+        </Sparta_UrlRewrite>
+    </modules>
+</config>

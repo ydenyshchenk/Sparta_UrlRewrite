@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sparta_UrlRewrite>
+            <version>0.1.0</version>
+        </Sparta_UrlRewrite>
+    </modules>
+    <global>
+        <models>
+            <sparta_urlrewrite>
+                <class>Sparta_UrlRewrite_Model</class>
+            </sparta_urlrewrite>
+            <enterprise_urlrewrite>
+                <rewrite>
+                    <url_rewrite_request>Sparta_UrlRewrite_Model_Url_Rewrite_Request</url_rewrite_request>
+                </rewrite>
+            </enterprise_urlrewrite>
+        </models>
+    </global>
+
+</config>
